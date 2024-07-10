@@ -32,6 +32,7 @@ const BookDetails = () => {
   return (
     <div className="flex justify-center  items-center w-full flex-col  mx-auto container ">
       <h1 className="text-3xl text-white">{book?.attributes?.name}</h1>
+      <p>{book?.attributes?.book?.description}</p>
       <div className="flex justify-center py-6  items-center w-full min-h-[40rem]   mx-auto ">
         <div className="flex justify-center bg-[#1e1e1e]  h-full items-center w-[30%] flex-col  mx-auto "></div>
         <div className="flex justify-center  bg-[#1e1e1e] h-full items-center w-[60%] flex-col  mx-auto "></div>
